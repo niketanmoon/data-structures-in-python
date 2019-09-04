@@ -10,7 +10,8 @@ for i in range(n):
 
 def minmax(data):
     sorted(data)
-    result = (data[0],data[-1])
+    result = \
+        (data[0],data[-1])
     print(result)
 
 minmax(list_data)
